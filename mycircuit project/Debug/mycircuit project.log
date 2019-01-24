@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\source.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\source.cpp(14): warning C4018: '<': signed/unsigned mismatch
+  mycircuit project.vcxproj -> C:\Users\mohamed\source\repos\mycircuit project\Debug\mycircuit project.exe

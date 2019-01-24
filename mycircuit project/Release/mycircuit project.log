@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Ac similator.vcxproj, mycircuit project.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ActiveElement.cpp
+  Capacitor.cpp
+  Element.cpp
+  Inductor.cpp
+  Node.cpp
+  PassiveElement.cpp
+  Resistor.cpp
+  Voltage Source.cpp
+  Solver.cpp
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\solver.cpp(350): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\solver.cpp(364): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\solver.cpp(373): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\solver.cpp(408): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\solver.cpp(415): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\source.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed\source\repos\mycircuit project\mycircuit project\source.cpp(14): warning C4018: '<': signed/unsigned mismatch
+  strutils.cpp
+  Generating code
+  All 395 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  mycircuit project.vcxproj -> C:\Users\mohamed\source\repos\mycircuit project\Release\Ac simulator.exe

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="elements">
+      <UniqueIdentifier>{fffac30e-ed83-4b72-b523-0e0413341821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility functions">
+      <UniqueIdentifier>{db9682a9-6a89-4482-b294-4aac320245b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\PassiveElement.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="strutils.cpp">
+      <Filter>utility functions</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\Element.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\Node.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\Inductor.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\Capacitor.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\Resistor.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\ActiveElement.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="elements\Voltage Source.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\PassiveElement.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\Node.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\ActiveElement.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="strutils.h">
+      <Filter>utility functions</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\Capacitor.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\Element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\Inductor.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\Resistor.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="elements\Voltage Source.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
